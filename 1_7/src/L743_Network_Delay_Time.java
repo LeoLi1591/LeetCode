@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class L743_Network_Delay_Time {
     public int networkDelayTime(int[][] times, int n, int k) {
         // Bellmen Ford
+        // find shortest path
         int[] dist = new int[n];
         Arrays.fill(dist, Integer.MAX_VALUE);
         dist[k - 1] = 0;
