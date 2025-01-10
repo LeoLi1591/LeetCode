@@ -6,8 +6,11 @@ public class Main {
 //        int[] data = new int[] {1,100,1,1,1,100,1,1,100,1};
 //        System.out.println(test.minCostClimbingStairs(data));
 
-        L198_House_Robber test = new L198_House_Robber();
-        int[] data = new int[]{1,2,3,1};
-        System.out.println(test.rob(data));
+//        L198_House_Robber test = new L198_House_Robber();
+//        int[] data = new int[]{1,2,3,1};
+//        System.out.println(test.rob(data));
+
+//        L70_Climbing_Stairs test = new L70_Climbing_Stairs();
+//        System.out.println(test.climbStairs(3));
     }
 }
